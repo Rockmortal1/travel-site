@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        /*Crear variables*/
+        :root {
+            --primary-color:#700;
+            --secondary-color:#ff9900;
+            --border-width:15px;
+            --background-degrade: linear-gradient(
+                to right,
+                var(--primary-color),
+                var(--secondary-color)
+            )
+        }
+        body{
+            margin:0px;
+            padding: 0px;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            background-color: var(--background-degrade);
+            color: rgb(20, 10, 10);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .box{
+            background-color: var(--secondary-color);
+            padding: 20px;
+            border-radius: var(--border-width);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <main class="box">
+        <h1>Variables con CSS</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel veritatis reprehenderit, inventore rerum nihil, 
+            amet quos assumenda nobis quae eaque modi ipsa facilis quidem, 
+            enim non nesciunt corporis. Dignissimos, est?
+        </p>
+    </main>
+</body>
+</html>
