@@ -1,8 +1,9 @@
 # Proyecto sitio web de Viajes
 
-## Tecnologias utilixadas
+## Tecnologias utilisadex
 
 - ### HTML
 - ### CSS
+- ### GIT
 
 ---
