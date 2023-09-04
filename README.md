@@ -1,9 +1,11 @@
 # Proyecto sitio web de Viajes
 
-## Tecnologias utilisadex
+## Tecnologies utilisadex
 
 - ### HTML
 - ### CSS
 - ### GIT
+- ### GitHub
+- ### VS Code
 
 ---
